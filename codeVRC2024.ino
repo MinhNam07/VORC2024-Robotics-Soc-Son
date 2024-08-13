@@ -44,7 +44,7 @@ void loop() {
   if (ps2x.Button(PSB_PAD_UP)) pwm.setPWM(2, 0, 400);
   if (ps2x.Button(PSB_PAD_DOWN)) pwm.setPWM(2, 0, 0);
 
-  // Điều khiển servo nâng/hạ ống shooter
+  // Điều khiển servo bật/tắt làm cò súng cho shooter
   if (ps2x.Button(PSB_PAD_LEFT)) pwm.setPWM(3, 0, 400);
   if (ps2x.Button(PSB_PAD_RIGHT)) pwm.setPWM(3, 0, 0);
 
